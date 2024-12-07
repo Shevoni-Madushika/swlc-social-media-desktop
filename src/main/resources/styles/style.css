@@ -75,3 +75,14 @@
     -fx-underline: true;
     -fx-cursor: hand;
 }
+
+.logout-btn {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-background-color: #2f2f2f;
+    -fx-padding: 10 15;
+}
+
+.logout-btn:hover {
+    -fx-background-color: #555555;  /* Slightly lighter black on hover */
+}

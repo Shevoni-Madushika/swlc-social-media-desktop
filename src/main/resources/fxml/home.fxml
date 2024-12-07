@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Circle?>
 
-<AnchorPane fx:id="mainPanel" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-panel" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sentura.social_media.controller.HomeController">
+<AnchorPane fx:id="mainPanel" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-panel" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.swlc.social_media.controller.HomeController">
    <children>
       <!-- Fixed-width sidebar on the left with matte black background -->
       <AnchorPane fx:id="sidePanel" prefWidth="200.0" styleClass="slidebar" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -32,7 +32,7 @@
 
             <Button fx:id="btnNewsFeed" layoutY="180.0" mnemonicParsing="false" onAction="#btnHomeOnAction" styleClass="custom-button" text="News Feed" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
             <Button fx:id="btnChannel" layoutY="230.0" mnemonicParsing="false" onAction="#btnChannelOnAction" styleClass="custom-button" text="Channel" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-            <Button fx:id="btnLogout" layoutY="280.0" mnemonicParsing="false" onAction="#btnLogOutOnAction" styleClass="custom-button" text="Log Out" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+            <Button fx:id="btnLogout" layoutY="490.0" mnemonicParsing="false" onAction="#btnLogOutOnAction" styleClass="logout-btn" text="L o g O u t" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
          </children>
       </AnchorPane>
 

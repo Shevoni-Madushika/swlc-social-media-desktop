@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml" stylesheets="@../styles/channel.css"  fx:controller="com.sentura.social_media.controller.CreatePostController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml" stylesheets="@../styles/channel.css"  fx:controller="com.swlc.social_media.controller.CreatePostController">
         <children>
                 <!-- HBox to Center Text Area for Description -->
                 <HBox alignment="CENTER" layoutY="20.0" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">

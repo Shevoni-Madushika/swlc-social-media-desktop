@@ -9,7 +9,7 @@
 
 <?import com.jfoenix.controls.JFXTextField?>
 <?import com.jfoenix.controls.JFXButton?>
-<AnchorPane fx:id="registerPane" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sentura.social_media.controller.RegisterController">
+<AnchorPane fx:id="registerPane" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.swlc.social_media.controller.RegisterController">
    <children>
       <ImageView fx:id="propic" fitHeight="100.0" fitWidth="100.0" layoutX="195.0" layoutY="19.0" >
          <image>
